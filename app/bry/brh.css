@@ -1,0 +1,121 @@
+.purchaseProduct {
+    position: relative;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 800;
+    color: black;
+    overflow: hidden;
+    background: linear-gradient(to right, red, red 50%, black 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 275ms ease;
+    text-decoration: none;
+    animation: flipGif 4s ease-in infinite;
+    text-align: center;
+}
+
+
+.doctorBG {
+    background-image: url("https://imagedelivery.net/aacnHGAqlUDhaplA3bnkbA/2b890cac-5cd4-44d2-c44e-f359dcca1c00/public");
+}
+
+
+.purush_background {
+    background-image: url("https://imagedelivery.net/aacnHGAqlUDhaplA3bnkbA/316ae6da-2102-4fd2-c35d-c2a167e31900/public");
+    background-position: center;
+}
+
+.sevanvidhi {
+    background-image: linear-gradient(to right, #ffebac, #ffedb4, #ffefbc, #fff0c4, #fff2cc, #fff2cc, #fff2cc, #fff2cc, #fff0c4, #ffefbc, #ffedb4, #ffebac);
+}
+
+.doctorname {
+    background: linear-gradient(180deg, rgba(255, 187, 0, 1) 26%, rgba(255, 231, 0, 1) 73%);
+}
+
+
+@keyframes flipGif {
+    0% {
+        background-position: 100%
+    }
+
+    100% {
+        background-position: 0%
+    }
+}
+
+@media (max-width: 700px) {
+    .purchaseProduct {
+        font-size: 3.9vw;
+    }
+}
+
+
+
+.purchaseProduct_header {
+    position: relative;
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: yellow !important;
+    overflow: hidden;
+    background: linear-gradient(to right, red, red 50%, #e5ba0c 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 275ms ease;
+    text-decoration: none;
+    animation: flipGif 4s ease-in infinite;
+    text-align: center;
+}
+
+.purchaseProduct {
+    position: relative;
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: black;
+    overflow: hidden;
+    background: linear-gradient(to right, red, red 50%, black 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 275ms ease;
+    text-decoration: none;
+    animation: flipGif 4s ease-in infinite;
+    text-align: center;
+}
+
+
+
+@keyframes flipGif {
+    0% {
+        background-position: 100%
+    }
+
+    100% {
+        background-position: 0%
+    }
+}
+
+
+
+@media (max-width: 700px) {
+    .purchaseProduct_header {
+        font-size: 3.6vw;
+        text-align: start;
+        display: block;
+    }
+
+    .purchaseProduct {
+        font-size: 3.9vw;
+    }
+
+}

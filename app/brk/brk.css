@@ -1,0 +1,54 @@
+.purchaseProduct {
+    position: relative;
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: black;
+    overflow: hidden;
+    background: linear-gradient(to right, red, red 50%, black 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 275ms ease;
+    text-decoration: none;
+    animation: flipGif 4s ease-in infinite;
+    text-align: center;
+}
+
+
+@keyframes flipGif {
+    0% {
+        background-position: 100%
+    }
+
+    100% {
+        background-position: 0%
+    }
+}
+
+.YoutubeArrow .carousel .control-arrow::before,
+.YoutubeArrow .carousel.carousel-slider .control-arrow::before {
+    border-top: 8px solid red !important;
+}
+
+@media (max-width: 700px) {
+    .purchaseProduct {
+        font-size: 5.1vw;
+    }
+}
+
+.tt {
+    text-align: center;
+    width: 100%;
+    transition: 0.7s ease-in;
+    bottom: 0%;
+}
+
+.xx {
+    bottom: -25%;
+    text-align: center;
+    width: 100%;
+    transition: 0.7s ease;
+}

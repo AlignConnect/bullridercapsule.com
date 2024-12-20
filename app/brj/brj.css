@@ -1,0 +1,74 @@
+.purchaseProduct {
+    position: relative;
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: black;
+    overflow: hidden;
+    background: linear-gradient(to right, red, red 50%, black 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 275ms ease;
+    text-decoration: none;
+    animation: flipGif 4s ease-in infinite;
+    text-align: center;
+}
+
+
+@keyframes flipGif {
+    0% {
+        background-position: 100%
+    }
+
+    100% {
+        background-position: 0%
+    }
+}
+
+
+@media (max-width: 700px) {
+    .purchaseProduct {
+        font-size: 5.1vw;
+    }
+}
+
+.tt {
+    text-align: center;
+    width: 100%;
+    transition: 0.7s ease-in;
+    bottom: 0%;
+}
+
+.xx {
+    bottom: -25%;
+    text-align: center;
+    width: 100%;
+    transition: 0.7s ease;
+}
+
+.beforeKey {
+    background-image: linear-gradient(90deg, hsl(20deg 100% 70%) 0%, hsl(18deg 100% 69%) 11%, hsl(17deg 100% 68%) 22%, hsl(15deg 100% 68%) 33%, hsl(13deg 100% 67%) 44%, hsl(11deg 100% 67%) 56%, hsl(9deg 100% 66%) 67%, hsl(7deg 100% 66%) 78%, hsl(5deg 99% 66%) 89%, hsl(2deg 99% 65%) 100%);
+}
+
+.afterKey {
+    background-image: linear-gradient(90deg, hsl(155deg 62% 49%) 0%, hsl(159deg 68% 46%) 11%, hsl(162deg 74% 44%) 22%, hsl(165deg 79% 41%) 33%, hsl(167deg 83% 40%) 44%, hsl(169deg 84% 39%) 56%, hsl(171deg 80% 38%) 67%, hsl(172deg 75% 39%) 78%, hsl(174deg 68% 39%) 89%, hsl(175deg 61% 40%) 100%);
+}
+
+.beforeTitle {
+    background-image: linear-gradient(180deg, hsl(1deg 92% 60%) 0%, hsl(1deg 87% 58%) 11%, hsl(0deg 83% 57%) 22%, hsl(360deg 78% 55%) 33%, hsl(359deg 75% 54%) 44%, hsl(359deg 71% 52%) 56%, hsl(358deg 68% 50%) 67%, hsl(358deg 69% 48%) 78%, hsl(357deg 71% 47%) 89%, hsl(357deg 73% 45%) 100%);
+}
+
+.afterTitle {
+    background-image: linear-gradient(180deg, hsl(141deg 82% 49%) 0%, hsl(143deg 85% 46%) 11%, hsl(144deg 88% 44%) 22%, hsl(146deg 92% 41%) 33%, hsl(147deg 95% 39%) 44%, hsl(147deg 96% 37%) 56%, hsl(148deg 97% 35%) 67%, hsl(149deg 96% 33%) 78%, hsl(149deg 95% 32%) 89%, hsl(149deg 92% 31%) 100%);
+}
+
+
+
+
+
+iframe .ytp-title-link {
+    opacity: 0 !important;
+}

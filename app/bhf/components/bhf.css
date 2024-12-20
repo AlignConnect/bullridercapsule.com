@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arya:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.fontPoppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.fontBebas {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.fontNoto {
+    font-family: 'Noto Serif Devanagari', sans-serif;
+}
+
+.fontKalnia {
+    font-family: 'Kalnia', serif;
+}
+
+.fontArya {
+    font-family: 'Arya', sans-serif;
+}
+
+body {
+    font-family: 'Noto Serif Devanagari', sans-serif;
+}
+
+.purchaseProduct_header {
+    position: relative;
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: yellow !important;
+    overflow: hidden;
+    background: linear-gradient(to right, red, red 50%, #e5ba0c 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 275ms ease;
+    text-decoration: none;
+    animation: flipGif 4s ease-in infinite;
+    text-align: center;
+}
+
+.purchaseProduct {
+    position: relative;
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: black;
+    overflow: hidden;
+    background: linear-gradient(to right, red, red 50%, black 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 275ms ease;
+    text-decoration: none;
+    animation: flipGif 4s ease-in infinite;
+    text-align: center;
+}
+
+
+
+@keyframes flipGif {
+    0% {
+        background-position: 100%
+    }
+
+    100% {
+        background-position: 0%
+    }
+}
+
+
+
+@media (max-width: 700px) {
+    .purchaseProduct_header {
+        font-size: 3.6vw;
+        text-align: start;
+        display: block;
+    }
+
+    .purchaseProduct {
+        font-size: 3.9vw;
+    }
+
+}
+
+.bgclass {
+    background-color: #f9f6e3;
+}
+
+
+.pop_imagehfv {
+    animation: zoom-in-zoom-out 1.2s cubic-bezier(0.9, 0.7, 0.5, 0.9) infinite;
+}
+
+@keyframes zoom-in-zoom-out {
+    0% {
+        transform: scale(0.8, 0.8);
+        opacity: 1;
+    }
+
+    50% {
+        transform: scale(1, 1);
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: scale(0.8, 0.8);
+        opacity: 1;
+    }
+}
